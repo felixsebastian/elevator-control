@@ -11,7 +11,7 @@
     "build": "tsc",
     "clean": "rm -rf ./lib/",
     "lint": "eslint ./src/ --fix",
-    "start": "TS_NODE_FILES=true ts-node ./src/cli.ts",
+    "start": "TS_NODE_FILES=true ts-node ./src/mainli.ts",
     "test:watch": "jest --watch",
     "test": "jest",
     "typecheck": "tsc --noEmit"
